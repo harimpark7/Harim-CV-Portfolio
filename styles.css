@@ -1,5 +1,57 @@
 body {
     background-color: #EAF6F6;
+    margin: 0;
+}
+
+.Heading {
+    background-color: #E4F9F5;
+    text-align: center;
+}
+
+.Title {
+    font-family: cursive, sans-serif;
+    font-size: 4em;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: 1.25em;
+}
+
+.Clouds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mountain-1 {
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+.mountain-2 {
+    position: relative;
+    width: 25%;
+    height: auto;
+}
+
+.MainPicture {
+    position: relative;
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+.summary {
+    margin: 20px;
+}
+
+.Work, .Education, .Skills, .Certifications, .Links, .summary-header {
+    background-color: #EAF6F6;
+    margin: 10px;
 }
 
 hr {
@@ -10,10 +62,51 @@ hr {
     width: 5%;
 }
 
-h1 {
+h3 {
     color: #66BFBF;
 }
 
-h3 {
-    color: #66BFBF;
+.footer-link {
+    font-family: Montserrat, sans-serif;
+}
+
+.contact {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #66BFBF;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
 }
