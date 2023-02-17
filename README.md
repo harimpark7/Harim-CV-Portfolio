@@ -1,2 +1,2 @@
-# Harim-s-CV-Portfolio
+# Harim-CV-Portfolio
 This is my CV / Personal Portfolio. A live document.
