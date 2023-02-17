@@ -46,12 +46,16 @@ h1 {
 }
 
 .summary {
-    margin: 20px;
+    margin: 10px;
 }
 
-.Work, .Education, .Skills, .Certifications, .Links, .summary-header {
+.Work, .Experience, .Education, .Skills, .Certifications, .Links, .summary-header {
     background-color: #EAF6F6;
     margin: 10px;
+}
+
+.Experience {
+    line-height: 1.5;
 }
 
 hr {
@@ -104,9 +108,5 @@ h3 {
 
 .bottom-container {
     background-color: #66BFBF;
-    text-align: center;
-}
-
-.copyright {
     text-align: center;
 }
