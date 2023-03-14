@@ -6,10 +6,6 @@ let weather = {
             + zipcode
             +",us&units=imperial&appid="
             + this.apiKey
-            // "https://api.openweathermap.org/data/2.5/weather?q="
-            // + city
-            // + "&units=imperial&appid="
-            // + this.apiKey
         )
             .then((response) => response.json())
             .then((data) => this.displayWeather(data));
